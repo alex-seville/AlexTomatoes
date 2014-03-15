@@ -7,6 +7,8 @@
 //
 
 #import "ASAppDelegate.h"
+#import "ASMovieListViewController.h"
+#import "ASMainNavigationController.h"
 
 @implementation ASAppDelegate
 
@@ -14,6 +16,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    ASMovieListViewController *mlvc = [[ASMovieListViewController alloc] init];
+    ASMainNavigationController *nvc = [[ASMainNavigationController alloc] initWithRootViewController:mlvc];
+    self.window.rootViewController = nvc;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
