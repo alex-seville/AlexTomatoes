@@ -7,21 +7,31 @@
 //
 
 #import "ASMovieListViewController.h"
+#import "ASMovieCell.h"
+#import "ASMovie.h"
+#import "ASMovieDetailViewViewController.h"
+#import "ASAPIService.h"
+#import "SVProgressHUD.h"
+
+
 
 @interface ASMovieListViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *movieTable;
-- (void)reload;
+@property (nonatomic, strong) NSMutableArray *movies;
+
+
+- (void)loadData;
 
 @end
 
 @implementation ASMovieListViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil movieDataType:(NSString *)moveDataType
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        
+       
     }
     return self;
 }
@@ -29,8 +39,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
     
+    /* setup nav stuff */
+    UIBarButtonItem *backToList = [[UIBarButtonItem alloc] initWithTitle:self.title style:UIBarButtonItemStylePlain target:nil action:nil];
+	self.navigationItem.backBarButtonItem = backToList;
+    
+    [self loadData];
+    
+    /* Set a height for our rows */
+    self.movieTable.rowHeight = 115;
+    
+    /* allow refresh on swipe down */
+    UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
+    [refreshControl addTarget:self action:@selector(refresh:) forControlEvents:UIControlEventValueChanged];
+    [self.movieTable addSubview:refreshControl];
+    
+    /* set the data source for the table */
+    self.movieTable.dataSource = self;
+    self.movieTable.delegate = self;
+    
+    /* we need this for our custom cell*/
+    UINib *movieCellNib = [UINib nibWithNibName:@"ASMovieCell" bundle:nil];
+    [self.movieTable registerNib:movieCellNib forCellReuseIdentifier:@"ASMovieCell"];
     
     
 }
@@ -41,9 +71,59 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)reload
-{
-    
+#pragma mark - Table view methods
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.movies.count;
 }
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    ASMovieCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ASMovieCell" forIndexPath:indexPath];
+    /* add the control to indicate more details can be seen */
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    
+    /* we just return the cell, and let the cell handle how it's displayed */
+    cell.movie = self.movies[indexPath.row];
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    ASMovieCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ASMovieCell" forIndexPath:indexPath];
+    /* change the cell background color when selected */
+    cell.backgroundColor = [UIColor colorWithRed:23/255.0f green:122/255.0f blue:22/255.0f alpha:0.5f];
+    NSLog(@"here?");
+    /* push the detail view */
+    ASMovieDetailViewViewController *vc = [[ASMovieDetailViewViewController alloc] initWithNibName:@"ASMovieDetailViewViewController" bundle:nil movieModel:[self.movies objectAtIndex:[indexPath row]]];
+    [self.navigationController pushViewController:vc animated:YES];
+    NSLog(@"then here?");
+}
+
+#pragma mark - private
+
+- (void)loadData
+{
+    NSLog(@"getting data");
+    [SVProgressHUD show];
+    [ASAPIService getMovies:self.movieDataType withSuccess:^(NSMutableArray *movies) {
+        
+        self.movies = movies;
+        [self.movieTable reloadData];
+        [SVProgressHUD dismiss];
+    } andFailure:^(void) {
+        /* TODO handle failure */
+        NSLog(@"Error from network!");
+        [SVProgressHUD dismiss];
+        
+    }];
+}
+
+- (void)refresh:(UIRefreshControl *)refreshControl {
+    [self loadData];
+    [refreshControl endRefreshing];
+}
+
 
 @end

@@ -8,20 +8,36 @@
 
 #import "ASAppDelegate.h"
 #import "ASMovieListViewController.h"
-#import "ASMainNavigationController.h"
 
 @implementation ASAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     
-    ASMovieListViewController *mlvc = [[ASMovieListViewController alloc] init];
-    ASMainNavigationController *nvc = [[ASMainNavigationController alloc] initWithRootViewController:mlvc];
-    self.window.rootViewController = nvc;
+    /* Box Office Setup */
     
-    self.window.backgroundColor = [UIColor whiteColor];
+    ASMovieListViewController *boxOfficeViewCtrlr = [[ASMovieListViewController alloc] init];
+    UINavigationController *boxOfficeNvc = [[UINavigationController alloc] initWithRootViewController:boxOfficeViewCtrlr];
+    boxOfficeViewCtrlr.title = @"Box Office";
+    boxOfficeViewCtrlr.movieDataType = @"BoxOffice";
+    /* TODO make image */
+    
+    /* DVD Setup */
+    
+    ASMovieListViewController *dvdViewCtrlr = [[ASMovieListViewController alloc] init];
+    UINavigationController *dvdNvc = [[UINavigationController alloc] initWithRootViewController:dvdViewCtrlr];
+    dvdViewCtrlr.title = @"DVD";
+    dvdViewCtrlr.movieDataType = @"DVD";
+    /* TODO make image */
+    
+    UITabBarController *tabBar = [[UITabBarController alloc] init];
+    tabBar.viewControllers = @[boxOfficeNvc, dvdNvc];
+    
+    
+    self.window.rootViewController = tabBar;
+    
+   
     [self.window makeKeyAndVisible];
     return YES;
 }

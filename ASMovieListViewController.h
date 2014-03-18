@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ASMovieListViewController : UIViewController
+@interface ASMovieListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property NSString *movieDataType;
 
 @end
