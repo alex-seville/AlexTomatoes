@@ -8,10 +8,15 @@
 
 #import "ASMovieDetailViewViewController.h"
 #import "ASMovie.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface ASMovieDetailViewViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *movieTitleLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *posterView;
+@property (weak, nonatomic) IBOutlet UILabel *castLabel;
+@property (weak, nonatomic) IBOutlet UIView *detailView;
+@property (weak, nonatomic) IBOutlet UILabel *summaryLabel;
 
 @property ASMovie *movieModel;
 
@@ -32,11 +37,15 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil movieModel:(ASMovie *)model
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [self initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        movie = _movieModel;
+        movie = model;
         // Custom initialization
         self.title = movie.title;
+        
+        /* Set up the close button */
+        UIBarButtonItem *closeButton = [[UIBarButtonItem alloc] initWithTitle:@"Close" style:UIBarButtonItemStylePlain target:self action:@selector(closeDetail)];
+        self.navigationItem.rightBarButtonItem = closeButton;
     }
     return self;
 }
@@ -46,12 +55,21 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     _movieTitleLabel.text = movie.title;
+    _castLabel.text = movie.castString;
+    [_posterView setImageWithURL:[NSURL URLWithString:movie.largePosterURl]];
+    _summaryLabel.text = movie.synopsis;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - privat methods
+
+- (void) closeDetail {
+	[self.navigationController popViewControllerAnimated:YES];
 }
 
 @end

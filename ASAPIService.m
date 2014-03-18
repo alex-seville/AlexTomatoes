@@ -40,13 +40,22 @@ static NSString *apiKey = @"nkgx8re96pat5a38hfkub8jc";
         
         NSMutableArray *parsedMovies = [[NSMutableArray alloc] init];
         
+        
         /* loop through the data and make models */
         for (NSDictionary *movie in object[@"movies"]){
+            NSMutableArray *castList = [[NSMutableArray alloc] init];
+            
             ASMovie *parsedMovie = [[ASMovie alloc] init];
             parsedMovie.title = [movie objectForKey:@"title"];
-            parsedMovie.posterURl = [[movie objectForKey:@"posters"] objectForKey:@"thumbnail"];
+            parsedMovie.posterURl = [[movie objectForKey:@"posters"] objectForKey:@"detailed"];
+            parsedMovie.largePosterURl = [[movie objectForKey:@"posters"] objectForKey:@"original"];
             parsedMovie.synopsis = [movie objectForKey:@"synopsis"];
+            for (NSDictionary *castMember in [movie objectForKey:@"abridged_cast"]){
+                [castList addObject:castMember[@"name"]];
+            }
+            parsedMovie.castString = [castList componentsJoinedByString:@", "];
             [parsedMovies addObject:parsedMovie];
+            
         }
             
         

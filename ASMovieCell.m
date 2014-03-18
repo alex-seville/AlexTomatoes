@@ -44,7 +44,7 @@
     self.movieTitleLabel.text = movie.title;
     [self.posterView setImageWithURL:[NSURL URLWithString:movie.posterURl]];
     self.movieSynopsisLabel.text = movie.synopsis;
-    
+    self.castLabel.text = movie.castString;
 }
 
 @end

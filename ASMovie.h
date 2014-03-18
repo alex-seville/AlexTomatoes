@@ -13,7 +13,7 @@
 @property NSString *title;
 @property NSString *posterURl;
 @property NSString *synopsis;
-
-
+@property NSString *castString;
+@property NSString *largePosterURl;
 
 @end

@@ -12,6 +12,7 @@
 #import "ASMovieDetailViewViewController.h"
 #import "ASAPIService.h"
 #import "SVProgressHUD.h"
+#import "TSMessage.h"
 
 
 
@@ -94,11 +95,11 @@
     ASMovieCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ASMovieCell" forIndexPath:indexPath];
     /* change the cell background color when selected */
     cell.backgroundColor = [UIColor colorWithRed:23/255.0f green:122/255.0f blue:22/255.0f alpha:0.5f];
-    NSLog(@"here?");
+   
     /* push the detail view */
     ASMovieDetailViewViewController *vc = [[ASMovieDetailViewViewController alloc] initWithNibName:@"ASMovieDetailViewViewController" bundle:nil movieModel:[self.movies objectAtIndex:[indexPath row]]];
     [self.navigationController pushViewController:vc animated:YES];
-    NSLog(@"then here?");
+    
 }
 
 #pragma mark - private
@@ -113,8 +114,7 @@
         [self.movieTable reloadData];
         [SVProgressHUD dismiss];
     } andFailure:^(void) {
-        /* TODO handle failure */
-        NSLog(@"Error from network!");
+        [TSMessage showNotificationWithTitle:@"Network Error" subtitle:@"Network unavailable, please try again." type:TSMessageNotificationTypeError];
         [SVProgressHUD dismiss];
         
     }];
