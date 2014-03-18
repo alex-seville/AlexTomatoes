@@ -90,13 +90,15 @@
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     /* push the detail view */
     ASMovieDetailViewViewController *vc = [[ASMovieDetailViewViewController alloc] initWithNibName:@"ASMovieDetailViewViewController" bundle:nil movieModel:[self.movies objectAtIndex:[indexPath row]]];
     [self.navigationController pushViewController:vc animated:YES];
     
 }
+
+
 
 #pragma mark - private
 

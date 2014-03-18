@@ -1,0 +1,103 @@
+TPods
+v6
+r1
+cCheck dependencies
+cCompileC /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o /Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053273EA000000000000003B4
+t1395080864
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053273EA4000000000000019E
+t1395080868
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053273EB60000000000000ADC
+t1395080886
+s2780
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o
+t1395175522
+s3572
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods.LinkFileList
+c000000005328B0620000000000000096
+t1395175522
+s150
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a
+c000000005328B0620000000000172610
+t1395175522
+s1517072
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods-HexColors.a
+c000000005328B0620000000000005000
+t1395175522
+s20480
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods-SVProgressHUD.a
+c000000005328B062000000000001CEE8
+t1395175522
+s118504
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods-TSMessages.a
+c000000005328B06200000000000452C8
+t1395175522
+s283336
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods.a
+t2
+s0
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods-dummy.m
+c0000000053289B690000000000000070
+t1395170153
+s112
+
+CBuild AST from /Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9d6394e2e7d8b841^e0d794e2e7d8b841^---0#1#1#--18"Check dependencies36"565B90C2-BCCC-40D2-B510-F865817C43EF-
+
+CCompileC /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o /Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416868322.581811
+e416868322.684185
+r1
+xCompileC
+x/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o
+x/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods-dummy.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods-dummy.m241"CompileC /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbc0295e2e7d8b841^b18aafe2e7d8b841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods-dummy.m0000000000000000^4359"CompileC /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/RottenTomatoes/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods/Headers -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods/Headers/HexColors -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods/Headers/TSMessages -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/x86_64 -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods/Headers -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods/Headers/HexColors -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods/Headers/SVProgressHUD -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods/Headers/TSMessages -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.d --serialize-diagnostics /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.dia -c /Users/seville/Documents/github/ios/RottenTomatoes/Pods/Pods-dummy.m -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o36"BD4E4984-B67F-40EF-B540-9B47C952E944-
+b1DBF2D23-2F7B-4AC7-AB16-296B8F24D98C
+
+CLibtool /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64
+s416868322.684725
+e416868322.742539
+r1
+xLibtool
+x/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Libtool /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64119"Libtool /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods.a normal x86_645456afe2e7d8b841^bd18bee2e7d8b841^---0#0#1#--1127"Libtool /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64    cd /Users/seville/Documents/github/ios/RottenTomatoes/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -filelist /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -lPods-HexColors -lPods-SVProgressHUD -lPods-TSMessages -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods.a36"25D16D36-5E38-445D-A4E9-CF5774270CE8-
+b1DBF2D23-2F7B-4AC7-AB16-296B8F24D98C
+

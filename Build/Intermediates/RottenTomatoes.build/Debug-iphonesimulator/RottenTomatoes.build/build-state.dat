@@ -1,0 +1,996 @@
+TRottenTomatoes
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-EF52FF316C6E4966A906A704.sh
+cProcessPCH /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch.pch RottenTomatoes/RottenTomatoes-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAPIService.o /Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovie.o /Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAppDelegate.o /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieDetailViewViewController.o /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieCell.o /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieListViewController.o /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/main.o /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes normal x86_64
+cCompileXIB /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.xib
+cCopyStringsFile /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/en.lproj/InfoPlist.strings RottenTomatoes/en.lproj/InfoPlist.strings
+cCpResource rtlogo.png Build/Products/Debug-iphonesimulator/RottenTomatoes.app/rtlogo.png
+cCompileXIB /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.xib
+cCpResource bg-clouds.png Build/Products/Debug-iphonesimulator/RottenTomatoes.app/bg-clouds.png
+cCompileXIB /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.xib
+cCompileAssetCatalog /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/Images.xcassets
+cProcessInfoPlistFile /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Info.plist /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/RottenTomatoes-Info.plist
+cGenerateDSYMFile /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app.dSYM /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes
+cPhaseScriptExecution Copy\ Pods\ Resources /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-535F76C989E845A6AFE6AD31.sh
+cTouch /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053273EA000000000000003B4
+t1395080864
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053273EA4000000000000019E
+t1395080868
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000053273EA6000000000058E0E0
+t1395080870
+s5824736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000053273EA600000000005B82F0
+t1395080870
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053273EA50000000000446820
+t1395080869
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c0000000053273EA600000000003599D0
+t1395080870
+s3512784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c0000000053273EA600000000002FC3B0
+t1395080870
+s3130288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000053273EA6000000000004B000
+t1395080870
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053273EA6000000000088D8C0
+t1395080870
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000053273EA700000000001BE790
+t1395080871
+s1828752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000053273EA70000000000037680
+t1395080871
+s226944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053273EA7000000000048F720
+t1395080871
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000053273EA7000000000013FD70
+t1395080871
+s1310064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000053273EA700000000001081C0
+t1395080871
+s1081792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053273EA90000000001F1DE10
+t1395080873
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c0000000053273EAF00000000002BC360
+t1395080879
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c0000000053273EB30000000000002338
+t1395080883
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c0000000053273EB3000000000008D370
+t1395080883
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c0000000053273EB30000000000392E20
+t1395080883
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c0000000052FC043D00000000000141F0
+t1392247869
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c0000000053273EB30000000000014A80
+t1395080883
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c0000000053273EB30000000000033BA0
+t1395080883
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c0000000053273EB3000000000001CFB0
+t1395080883
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c0000000053273EB3000000000001B2B0
+t1395080883
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c0000000053273EB300000000000C9570
+t1395080883
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c0000000053273EB30000000000063280
+t1395080883
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c0000000053273EB30000000000008880
+t1395080883
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c0000000053273EB30000000000015080
+t1395080883
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c0000000053273EB300000000000230F0
+t1395080883
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c0000000053273EB3000000000000E380
+t1395080883
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c0000000053273EB30000000000089380
+t1395080883
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c0000000053273EB30000000000017320
+t1395080883
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c0000000053273EB30000000000039CD0
+t1395080883
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c0000000053273EB3000000000000B0B0
+t1395080883
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c0000000053273EB40000000000167E80
+t1395080884
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c0000000053273EB300000000000106A0
+t1395080883
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c0000000053273EB3000000000001CE40
+t1395080883
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c0000000053273EB400000000000740C0
+t1395080884
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c0000000053273EB4000000000006CA60
+t1395080884
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c0000000053273EB4000000000001BAD0
+t1395080884
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c0000000053273EB40000000000084A20
+t1395080884
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053273EB60000000000000ADC
+t1395080886
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c0000000053273EB6000000000000514C
+t1395080886
+s20812
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.h
+c00000000532897070000000000000167
+t1395169031
+s359
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.m
+c000000005328A82200000000000009AF
+t1395173410
+s2479
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.h
+c000000005328A3FE000000000000017B
+t1395172350
+s379
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.m
+c000000005328024500000000000000CB
+t1395130949
+s203
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.h
+c0000000053274AC30000000000000126
+t1395083971
+s294
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.m
+c0000000053289D8200000000000004A5
+t1395170690
+s1189
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.xib
+c000000005328024500000000000011E6
+t1395130949
+s4582
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.h
+c000000005327B5F30000000000000194
+t1395111411
+s404
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.m
+c000000005328AB110000000000000876
+t1395174161
+s2166
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.xib
+c000000005328A8710000000000001B2B
+t1395173489
+s6955
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.h
+c00000000532891D30000000000000151
+t1395167699
+s337
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.m
+c000000005328BDA60000000000000E6B
+t1395178918
+s3691
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.xib
+c0000000053275704000000000000077E
+t1395087108
+s1918
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch.pch
+t1395175522
+s124384
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAPIService.o
+t1395175522
+s18636
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAppDelegate.o
+t1395175522
+s74232
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovie.o
+t1395175522
+s12928
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieCell.o
+t1395175522
+s53628
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieDetailViewViewController.o
+t1395175522
+s60096
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieListViewController.o
+t1395178965
+s83924
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/RottenTomatoes.LinkFileList
+c000000005328B06200000000000004C7
+t1395175522
+s1223
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/main.o
+t1395175522
+s3816
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-535F76C989E845A6AFE6AD31.sh
+c000000005328B062000000000000002F
+t1395175522
+s47
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-EF52FF316C6E4966A906A704.sh
+c000000005328B0620000000000000103
+t1395175522
+s259
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/assetcatalog_dependencies.txt
+t1395175523
+s438
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/assetcatalog_generated_info.plist
+t1395175523
+s525
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app
+t1395178965
+s1054
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app.dSYM
+t1395178900
+s102
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/ASMovieCell.nib
+t1395175524
+s3755
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/ASMovieDetailViewViewController.nib
+t1395175524
+s4507
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/ASMovieListViewController.nib
+t1395175523
+s1755
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Info.plist
+t1395175524
+s1000
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/PkgInfo
+t1395175524
+s8
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes
+t1395178965
+s792184
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/bg-clouds.png
+t1395175522
+s67218
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/en.lproj/InfoPlist.strings
+t1395175522
+s42
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/rtlogo.png
+t1395175522
+s8456
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods.a
+c000000005328B06200000000001DA528
+t1395175522
+s1942824
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.h
+c000000005323BC1D000000000000012C
+t1394850845
+s300
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.m
+c00000000532897BA0000000000000BC8
+t1395169210
+s3016
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/Images.xcassets
+c000000005323BC1D0000000000000088
+t1394850845
+s136
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/RottenTomatoes-Info.plist
+c000000005323BC1D0000000000000491
+t1394850845
+s1169
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/RottenTomatoes-Prefix.pch
+c000000005323BC1D0000000000000158
+t1394850845
+s344
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/en.lproj/InfoPlist.strings
+c000000005323BC1D000000000000002D
+t1394850845
+s45
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/main.m
+c000000005323BC1D0000000000000168
+t1394850845
+s360
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/bg-clouds.png
+c000000005323C1890000000000010692
+t1394852233
+s67218
+
+N/Users/seville/Documents/github/ios/RottenTomatoes/rtlogo.png
+c000000005323C4080000000000002108
+t1394852872
+s8456
+
+N/usr/lib/libSystem.B.dylib
+c0000000052FC0431000000000000E6D0
+t1392247857
+s59088
+
+N/usr/lib/system/libcache.dylib
+c0000000052FC043D0000000000012A00
+t1392247869
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c0000000052FC0426000000000002E320
+t1392247846
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c0000000052FC04310000000000021860
+t1392247857
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c0000000052FC043D000000000001B620
+t1392247869
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c0000000052FC043D00000000000BD920
+t1392247869
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c0000000052FC043D00000000000141F0
+t1392247869
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c0000000052FC043D000000000000A120
+t1392247869
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c0000000052FC043D000000000001D550
+t1392247869
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c0000000052FC043C0000000000014EE0
+t1392247868
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c0000000052FC043F0000000000010380
+t1392247871
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c0000000052FC043F000000000000C4C0
+t1392247871
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c0000000052FC043D00000000000357A0
+t1392247869
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c0000000052FC043D000000000000C070
+t1392247869
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c0000000052FC04310000000000168C00
+t1392247857
+s1477632
+
+N/usr/lib/system/libsystem_configuration.dylib
+c0000000052FC043D0000000000010630
+t1392247869
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c0000000052FC043E000000000001DF10
+t1392247870
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c0000000052FC04310000000000075B00
+t1392247857
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c0000000052FC0431000000000007CC70
+t1392247857
+s511088
+
+N/usr/lib/system/libsystem_m.dylib
+c0000000052FC043100000000000766C0
+t1392247857
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c0000000052FC043E0000000000044DC0
+t1392247870
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c0000000052FC04310000000000021FA0
+t1392247857
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c0000000052FC043E000000000002D900
+t1392247870
+s186624
+
+N/usr/lib/system/libsystem_pthread.dylib
+c0000000052FC043E000000000001E570
+t1392247870
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c0000000052FC0437000000000000CC70
+t1392247863
+s52336
+
+N/usr/lib/system/libsystem_stats.dylib
+c0000000052FC043900000000000099B0
+t1392247865
+s39344
+
+N/usr/lib/system/libunc.dylib
+c0000000052FC0439000000000000C3F0
+t1392247865
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c0000000052FC043E00000000000199F0
+t1392247870
+s104944
+
+CBuild AST from /Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese4f82555f5d8b841^33192655f5d8b841^---0#1#1#--18"Check dependencies36"0C73FAD2-F2B6-46AC-AC8A-21EA6E902138-
+
+CCompileAssetCatalog /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/Images.xcassets
+s416868322.981251
+e416868323.961432
+r1
+xCompileAssetCatalog
+x/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app
+x/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/Images.xcassets
+o2014-03-18 13:45:23.840 IBCocoaTouchImageCatalogTool[20809:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.compilation-results */
+o/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/LaunchImage-700-568h@2x.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Assets.car
+o/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CompileAssetCatalog Build/Products/Debug-iphonesimulator/RottenTomatoes.app RottenTomatoes/Images.xcassets106"CompileAssetCatalog Build/Products/Debug-iphonesimulator/RottenTomatoes.app RottenTomatoes/Images.xcassets8d45fbe2e7d8b841^bc20f6e3e7d8b841^-692"2014-03-18 13:45:23.840 IBCocoaTouchImageCatalogTool[20809:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/LaunchImage-700-568h@2x.png/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Assets.car/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@89"file:///Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/Images.xcassets/0000000000000000^1254"CompileAssetCatalog Build/Products/Debug-iphonesimulator/RottenTomatoes.app RottenTomatoes/Images.xcassets    cd /Users/seville/Documents/github/ios/RottenTomatoes    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/Images.xcassets36"1F12CE0B-95CE-4D64-963F-751EC555A3F1-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAPIService.o /Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416868322.791231
+e416868322.839589
+r1
+xCompileC
+xBuild/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAPIService.o
+x/Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.m
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.h
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.m214"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAPIService.o ASAPIService.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler64accae2e7d8b841^a2efd6e2e7d8b841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.m0000000000000000^4702"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAPIService.o ASAPIService.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/RottenTomatoes    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-generated-files.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-own-target-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-project-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources/x86_64 -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources -F/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -include /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAPIService.d --serialize-diagnostics /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAPIService.dia -c /Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.m -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAPIService.o36"9BE9A6D8-76E4-4133-BA88-0A77F769D3B1-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAppDelegate.o /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416868322.791809
+e416868322.870727
+r1
+xCompileC
+xBuild/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAppDelegate.o
+x/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.m
+d/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.h
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.m231"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAppDelegate.o RottenTomatoes/ASAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler72c4cae2e7d8b841^b952dfe2e7d8b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.m0000000000000000^4738"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAppDelegate.o RottenTomatoes/ASAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/RottenTomatoes    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-generated-files.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-own-target-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-project-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources/x86_64 -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources -F/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -include /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAppDelegate.d --serialize-diagnostics /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAppDelegate.dia -c /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.m -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAppDelegate.o36"AF939777-DCCD-4DFC-8DF1-D54ED9D41017-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovie.o /Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416868322.791554
+e416868322.833716
+r1
+xCompileC
+xBuild/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovie.o
+x/Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.m
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.m204"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovie.o ASMovie.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd4b5cae2e7d8b841^006fd5e2e7d8b841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.m0000000000000000^4672"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovie.o ASMovie.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/RottenTomatoes    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-generated-files.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-own-target-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-project-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources/x86_64 -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources -F/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -include /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovie.d --serialize-diagnostics /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovie.dia -c /Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.m -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovie.o36"03B26DD0-CCED-41E3-9917-6F6EB71AC09D-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieCell.o /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416868322.792375
+e416868322.858428
+r1
+xCompileC
+xBuild/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieCell.o
+x/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.m
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.h
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.h
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.m212"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieCell.o ASMovieCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb2f3cae2e7d8b841^1ec3dbe2e7d8b841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.m0000000000000000^4696"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieCell.o ASMovieCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/RottenTomatoes    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-generated-files.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-own-target-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-project-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources/x86_64 -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources -F/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -include /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieCell.d --serialize-diagnostics /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieCell.dia -c /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.m -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieCell.o36"1B041707-3247-40B4-BBC1-E98C4ACBB110-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieDetailViewViewController.o /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416868322.792025
+e416868322.861534
+r1
+xCompileC
+xBuild/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieDetailViewViewController.o
+x/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.m
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.h
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.m252"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieDetailViewViewController.o ASMovieDetailViewViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler8be1cae2e7d8b841^da8fdce2e7d8b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.m0000000000000000^4816"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieDetailViewViewController.o ASMovieDetailViewViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/RottenTomatoes    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-generated-files.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-own-target-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-project-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources/x86_64 -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources -F/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -include /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieDetailViewViewController.d --serialize-diagnostics /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieDetailViewViewController.dia -c /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.m -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieDetailViewViewController.o36"71C258A3-A2CC-4AA7-9D23-6557B0CC4606-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieListViewController.o /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416871765.160089
+e416871765.218645
+r1
+xCompileC
+xBuild/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieListViewController.o
+x/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.m
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.h
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.h
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovie.h
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.h
+d/Users/seville/Documents/github/ios/RottenTomatoes/ASAPIService.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.m240"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieListViewController.o ASMovieListViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd4102955f5d8b841^51f93755f5d8b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.m0000000000000000^4780"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieListViewController.o ASMovieListViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/RottenTomatoes    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-generated-files.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-own-target-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-project-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources/x86_64 -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources -F/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -include /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieListViewController.d --serialize-diagnostics /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieListViewController.dia -c /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.m -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieListViewController.o36"20ECC7EB-A0D7-4F4E-AB89-98E20EB3425A-
+bE4E9F5B0-1040-4092-9597-5F63912DBE29
+
+CCompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/main.o /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416868322.793350
+e416868322.829596
+r1
+xCompileC
+xBuild/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/main.o
+x/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/main.m
+d/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/ASAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/main.m213"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/main.o RottenTomatoes/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6e31cbe2e7d8b841^fe60d4e2e7d8b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/main.m0000000000000000^4684"CompileC Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/main.o RottenTomatoes/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/RottenTomatoes    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-generated-files.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-own-target-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-project-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources/x86_64 -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources -F/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -include /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/main.dia -c /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/main.m -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/main.o36"5AC06C6C-9105-4DC1-BCD1-7063B36EBB07-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCompileXIB /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.xib
+s416868322.980741
+e416868324.287841
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.xib
+o2014-03-18 13:45:23.875 Interface Builder Cocoa Touch Tool[20807:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compiling /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.xib26"CompileXIB ASMovieCell.xib6727fbe2e7d8b841^b5dc49e4e7d8b841^-232"2014-03-18 13:45:23.875 Interface Builder Cocoa Touch Tool[20807:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@73"file:///Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.xib0000000000000000^775"CompileXIB ASMovieCell.xib    cd /Users/seville/Documents/github/ios/RottenTomatoes    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/ASMovieCell.nib /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieCell.xib36"2AE4CA0F-4005-4178-AF64-71D07700B39C-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCompileXIB /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.xib
+s416868322.980160
+e416868324.287833
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.xib
+o2014-03-18 13:45:23.874 Interface Builder Cocoa Touch Tool[20810:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compiling /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.xib46"CompileXIB ASMovieDetailViewViewController.xibe203fbe2e7d8b841^c2d949e4e7d8b841^-232"2014-03-18 13:45:23.874 Interface Builder Cocoa Touch Tool[20810:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@93"file:///Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.xib0000000000000000^835"CompileXIB ASMovieDetailViewViewController.xib    cd /Users/seville/Documents/github/ios/RottenTomatoes    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/ASMovieDetailViewViewController.nib /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieDetailViewViewController.xib36"C6E6AFD4-1DD4-4481-94F0-1412CFACA1B6-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCompileXIB /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.xib
+s416868322.979677
+e416868324.287838
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.xib
+o2014-03-18 13:45:23.874 Interface Builder Cocoa Touch Tool[20808:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compiling /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.xib40"CompileXIB ASMovieListViewController.xib27d9fae2e7d8b841^66db49e4e7d8b841^-232"2014-03-18 13:45:23.874 Interface Builder Cocoa Touch Tool[20808:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@87"file:///Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.xib0000000000000000^817"CompileXIB ASMovieListViewController.xib    cd /Users/seville/Documents/github/ios/RottenTomatoes    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/ASMovieListViewController.nib /Users/seville/Documents/github/ios/RottenTomatoes/ASMovieListViewController.xib36"733C29FF-098C-4F9B-860A-F3A2765C29F6-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCopyStringsFile /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/en.lproj/InfoPlist.strings RottenTomatoes/en.lproj/InfoPlist.strings
+s416868322.979814
+e416868322.983093
+r1
+xCopyStringsFile
+x/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/en.lproj/InfoPlist.strings
+xRottenTomatoes/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy RottenTomatoes/en.lproj/InfoPlist.strings140"CopyStringsFile Build/Products/Debug-iphonesimulator/RottenTomatoes.app/en.lproj/InfoPlist.strings RottenTomatoes/en.lproj/InfoPlist.stringsefe1fae2e7d8b841^82acfbe2e7d8b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/en.lproj/InfoPlist.strings0000000000000000^645"CopyStringsFile Build/Products/Debug-iphonesimulator/RottenTomatoes.app/en.lproj/InfoPlist.strings RottenTomatoes/en.lproj/InfoPlist.strings    cd /Users/seville/Documents/github/ios/RottenTomatoes    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/en.lproj -- RottenTomatoes/en.lproj/InfoPlist.strings36"209C161E-E055-4DCF-92EC-8E3462AAF1A2-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCpResource bg-clouds.png Build/Products/Debug-iphonesimulator/RottenTomatoes.app/bg-clouds.png
+s416868322.980469
+e416868322.981406
+r1
+xCpResource
+xbg-clouds.png
+xBuild/Products/Debug-iphonesimulator/RottenTomatoes.app/bg-clouds.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Products/Debug-iphonesimulator/RottenTomatoes.app/bg-clouds.png94"CpResource bg-clouds.png Build/Products/Debug-iphonesimulator/RottenTomatoes.app/bg-clouds.png490ffbe2e7d8b841^6c96fbe2e7d8b841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/bg-clouds.png0034a487deffdf42^632"CpResource bg-clouds.png Build/Products/Debug-iphonesimulator/RottenTomatoes.app/bg-clouds.png    cd /Users/seville/Documents/github/ios/RottenTomatoes    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/seville/Documents/github/ios/RottenTomatoes/bg-clouds.png /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app36"6E9211F1-72AE-4DF6-A271-FE7D33CDA2A7-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CCpResource rtlogo.png Build/Products/Debug-iphonesimulator/RottenTomatoes.app/rtlogo.png
+s416868322.979983
+e416868322.980963
+r1
+xCpResource
+xrtlogo.png
+xBuild/Products/Debug-iphonesimulator/RottenTomatoes.app/rtlogo.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Products/Debug-iphonesimulator/RottenTomatoes.app/rtlogo.png88"CpResource rtlogo.png Build/Products/Debug-iphonesimulator/RottenTomatoes.app/rtlogo.pnga2effae2e7d8b841^4793fbe2e7d8b841^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/rtlogo.png0034a487deffdf42^623"CpResource rtlogo.png Build/Products/Debug-iphonesimulator/RottenTomatoes.app/rtlogo.png    cd /Users/seville/Documents/github/ios/RottenTomatoes    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/seville/Documents/github/ios/RottenTomatoes/rtlogo.png /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app36"21113E77-5CAD-4C99-88BA-79029FB53483-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CGenerateDSYMFile /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app.dSYM /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes
+s416871765.271874
+e416871765.319491
+r1
+xGenerateDSYMFile
+x/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app.dSYM
+x/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Generate /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app.dSYM148"GenerateDSYMFile Build/Products/Debug-iphonesimulator/RottenTomatoes.app.dSYM Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoese8a24555f5d8b841^8acb5155f5d8b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app.dSYM/0000000000000000^739"GenerateDSYMFile Build/Products/Debug-iphonesimulator/RottenTomatoes.app.dSYM Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes    cd /Users/seville/Documents/github/ios/RottenTomatoes    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app.dSYM36"210045C3-A56F-4524-A158-3B7091978498-
+bE4E9F5B0-1040-4092-9597-5F63912DBE29
+
+CLd /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes normal x86_64
+s416871765.221493
+e416871765.270333
+r1
+xLd
+x/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes
+xnormal
+xx86_64
+d/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/RottenTomatoes.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAPIService.o
+d/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovie.o
+d/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASAppDelegate.o
+d/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieDetailViewViewController.o
+d/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieCell.o
+d/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/ASMovieListViewController.o
+d/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/libPods.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libsystem_stats.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Link /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes87"Ld Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes normal x86_64b9c13855f5d8b841^ce344555f5d8b841^---0#0#1#--1679"Ld Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes normal x86_64    cd /Users/seville/Documents/github/ios/RottenTomatoes    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -F/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -filelist /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/RottenTomatoes.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework CoreGraphics -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Objects-normal/x86_64/RottenTomatoes_dependency_info.dat -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/RottenTomatoes36"31C53DA6-A327-42CA-89D7-D6B567986E46-
+bE4E9F5B0-1040-4092-9597-5F63912DBE29
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-EF52FF316C6E4966A906A704.sh
+s416871765.149076
+e416871765.159077
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-EF52FF316C6E4966A906A704.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'166"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-EF52FF316C6E4966A906A704.sh69712655f5d8b841^dcb92855f5d8b841^---0#0#1#--410"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-EF52FF316C6E4966A906A704.sh    cd /Users/seville/Documents/github/ios/RottenTomatoes    /bin/sh -c /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-EF52FF316C6E4966A906A704.sh36"27813AC5-CDF9-496C-891D-31782606A3E8-
+bE4E9F5B0-1040-4092-9597-5F63912DBE29
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-535F76C989E845A6AFE6AD31.sh
+s416871765.319815
+e416871765.624472
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-535F76C989E845A6AFE6AD31.sh
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundError.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundError@2x.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundErrorIcon.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundErrorIcon@2x.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundMessage.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundMessage@2x.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccess.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccess@2x.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccessIcon.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccessIcon@2x.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarning.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarning@2x.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarningIcon.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarningIcon@2x.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationButtonBackground.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationButtonBackground@2x.png
+o/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/TSMessagesDefaultDesign.json
+obuilding file list ... done
+o
+osent 480 bytes  received 20 bytes  1000.00 bytes/sec
+ototal size is 12879  speedup is 25.76
+o2014-03-18 14:42:45.559 IBCocoaTouchImageCatalogTool[21626:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.compilation-results */
+o/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Assets.car
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'161"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-535F76C989E845A6AFE6AD31.sh31255255f5d8b841^cadd9f55f5d8b841^-2832"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundError.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundError@2x.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundErrorIcon.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundErrorIcon@2x.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundMessage.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundMessage@2x.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccess.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccess@2x.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccessIcon.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccessIcon@2x.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarning.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarning@2x.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarningIcon.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarningIcon@2x.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationButtonBackground.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationButtonBackground@2x.png/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/TSMessagesDefaultDesign.jsonbuilding file list ... donesent 480 bytes  received 20 bytes  1000.00 bytes/sectotal size is 12879  speedup is 25.762014-03-18 14:42:45.559 IBCocoaTouchImageCatalogTool[21626:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Assets.car24(21%IDEActivityLogMessage2@105"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle-416871765#0#105#-0#-----2@127"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundError.png-416871765#105#127#-0#-----2@130"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundError@2x.png-416871765#232#130#-0#-----2@131"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundErrorIcon.png-416871765#362#131#-0#-----2@134"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundErrorIcon@2x.png-416871765#493#134#-0#-----2@129"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundMessage.png-416871765#627#129#-0#-----2@132"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundMessage@2x.png-416871765#756#132#-0#-----2@129"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccess.png-416871765#888#129#-0#-----2@132"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccess@2x.png-416871765#1017#132#-0#-----2@133"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccessIcon.png-416871765#1149#133#-0#-----2@136"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundSuccessIcon@2x.png-416871765#1282#136#-0#-----2@129"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarning.png-416871765#1418#129#-0#-----2@132"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarning@2x.png-416871765#1547#132#-0#-----2@133"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarningIcon.png-416871765#1679#133#-0#-----2@136"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationBackgroundWarningIcon@2x.png-416871765#1812#136#-0#-----2@128"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationButtonBackground.png-416871765#1948#128#-0#-----2@131"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/Images/NotificationButtonBackground@2x.png-416871765#2076#131#-0#-----2@117"/Users/seville/Documents/github/ios/RottenTomatoes/Pods/TSMessages/TSMessages/Resources/TSMessagesDefaultDesign.json-416871765#2207#117#-0#-----2@28"building file list ... done-416871765#2324#28#-0#-----2@53"sent 480 bytes  received 20 bytes  1000.00 bytes/sec-416871765#2353#53#-0#-----2@38"total size is 12879  speedup is 25.76-416871765#2406#38#-0#-----2@226"2014-03-18 14:42:45.559 IBCocoaTouchImageCatalogTool[21626:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-416871765#2444#226#-0#-----2@43"/* com.apple.actool.compilation-results */-416871765#2670#43#-0#-----2@118"/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Assets.car-416871765#2713#118#-0#-----0#0#1#--405"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-535F76C989E845A6AFE6AD31.sh    cd /Users/seville/Documents/github/ios/RottenTomatoes    /bin/sh -c /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/Script-535F76C989E845A6AFE6AD31.sh36"9564A1E9-515C-4799-8295-204193BA90A9-
+bE4E9F5B0-1040-4092-9597-5F63912DBE29
+
+CProcessInfoPlistFile /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Info.plist /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/RottenTomatoes-Info.plist
+s416868324.288300
+e416868324.289838
+r1
+xProcessInfoPlistFile
+x/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Info.plist
+x/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/RottenTomatoes-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Process /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/RottenTomatoes-Info.plist128"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Info.plist RottenTomatoes/RottenTomatoes-Info.plistf9dc49e4e7d8b841^48334ae4e7d8b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/RottenTomatoes-Info.plist0000000000000000^1005"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Info.plist RottenTomatoes/RottenTomatoes-Info.plist    cd /Users/seville/Documents/github/ios/RottenTomatoes    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/RottenTomatoes-Info.plist -genpkginfo /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/assetcatalog_generated_info.plist -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app/Info.plist36"79D09F57-CDB8-4534-8DBA-8D04526C99F7-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CProcessPCH /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch.pch RottenTomatoes/RottenTomatoes-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416868322.757295
+e416868322.790544
+r1
+xProcessPCH
+x/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch.pch
+xRottenTomatoes/RottenTomatoes-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/RottenTomatoes-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile RottenTomatoes/RottenTomatoes-Prefix.pch241"ProcessPCH Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch.pch RottenTomatoes/RottenTomatoes-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd8efc1e2e7d8b841^8d61cae2e7d8b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/RottenTomatoes-Prefix.pch0000000000000000^4579"ProcessPCH Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch.pch RottenTomatoes/RottenTomatoes-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/RottenTomatoes    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-generated-files.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-own-target-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/RottenTomatoes-project-headers.hmap -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources/x86_64 -I/Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/RottenTomatoes.build/Debug-iphonesimulator/RottenTomatoes.build/DerivedSources -F/Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/HexColors -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/SVProgressHUD -isystem/Users/seville/Documents/github/ios/RottenTomatoes/Pods/Headers/TSMessages --serialize-diagnostics /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch.dia -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch.d -c /Users/seville/Documents/github/ios/RottenTomatoes/RottenTomatoes/RottenTomatoes-Prefix.pch -o /Users/seville/Documents/github/ios/RottenTomatoes/Build/Intermediates/PrecompiledHeaders/RottenTomatoes-Prefix-fzdzzqrgomkieucpaihiyaudevxy/RottenTomatoes-Prefix.pch.pch36"CBA6FE05-B271-499C-951F-C7A9B4177CEA-
+b239004F1-DD9D-452F-B113-E8CFD11DE29E
+
+CProcessPCH /Users/seville/Library/Developer/Xcode/DerivedData/RottenTomatoes-epwxhjzlqxmrvffppswrthebhtuq/Index/PrecompiledHeaders/RottenTomatoes-Prefix-gzgcuirfqvedtrbdgxiheeblnpdf_ast/RottenTomatoes-Prefix.pch.pch RottenTomatoes/RottenTomatoes-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/seville/Documents/github/ios/RottenTomatoes/Build/Products/Debug-iphonesimulator/RottenTomatoes.app
+r0
+
