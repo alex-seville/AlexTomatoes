@@ -54,6 +54,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+   
+}
+
+- (void) viewWillAppear:(BOOL)animated {
     _movieTitleLabel.text = movie.title;
     _castLabel.text = movie.castString;
     [_posterView setImageWithURL:[NSURL URLWithString:movie.largePosterURl]];

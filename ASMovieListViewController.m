@@ -92,10 +92,6 @@
 
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    ASMovieCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ASMovieCell" forIndexPath:indexPath];
-    /* change the cell background color when selected */
-    cell.backgroundColor = [UIColor colorWithRed:23/255.0f green:122/255.0f blue:22/255.0f alpha:0.5f];
-   
     /* push the detail view */
     ASMovieDetailViewViewController *vc = [[ASMovieDetailViewViewController alloc] initWithNibName:@"ASMovieDetailViewViewController" bundle:nil movieModel:[self.movies objectAtIndex:[indexPath row]]];
     [self.navigationController pushViewController:vc animated:YES];
@@ -106,7 +102,7 @@
 
 - (void)loadData
 {
-    NSLog(@"getting data");
+    
     [SVProgressHUD show];
     [ASAPIService getMovies:self.movieDataType withSuccess:^(NSMutableArray *movies) {
         
